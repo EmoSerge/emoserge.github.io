@@ -101,7 +101,7 @@ article h3 {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-family: Rubik-Bold, sans-serif;
 }
 
@@ -131,7 +131,6 @@ article h3 {
     letter-spacing: 0.5px;
     position: relative;
     line-height: 2em;
-    font-size: 1em;
     padding: 50px;
     list-style: none;
     text-align: left;
@@ -145,13 +144,14 @@ article h3 {
 {
     font-family: 'Rubik-BoldItalic', sans-serif;
     font-weight: 200;
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 .timeline .event {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
     padding-bottom: 25px;
     margin-bottom: 50px;
     position: relative;
+
 }
 .timeline .event:last-of-type {
     padding-bottom: 0;
@@ -176,7 +176,7 @@ article h3 {
 }
 .timeline .event:after {
     box-shadow: 0 0 0 4px #456e51;
-    left: -57.85px;
+    left: -60px;
     background: #313534;
     border-radius: 50%;
     height: 15px;
@@ -184,45 +184,9 @@ article h3 {
     content: "";
     top: 5px;
 }
-.timeline .work {
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
-    padding-bottom: 25px;
-    margin-bottom: 50px;
-    position: relative;
-}
-.timeline .work:last-of-type {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
-}
-.timeline .work:before,
-.timeline .work:after {
-    position: absolute;
-    display: block;
-    top: 0;
-}
-.timeline .work:before {
-    left: -220px;
-    color: rgb(30, 30, 30);
-    content: attr(data-date);
-    font-family: 'Rubik-Bold', sans-serif;
-    text-align: right;
-    font-weight: 100;
-    font-size: 1.5em;
-    min-width: 100px;
-}
-.timeline .work:after {
-    box-shadow: 0 0 0 4px #456e51;
-    left: -57.85px;
-    background: #313534;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    content: "";
-    top: 5px;
-}
+
 @media all and (orientation:portrait) {
-    .timeline .work:before,
+
     .timeline .event:before
     {
         display: block;
