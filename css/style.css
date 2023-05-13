@@ -130,12 +130,12 @@ article h3 {
     margin: 50px auto;
     letter-spacing: 0.5px;
     position: relative;
-    line-height: 2em;
+    line-height: 1.5em;
     padding: 50px;
     list-style: none;
     text-align: left;
     font-weight: 100;
-    max-width: 75%;
+    max-width: 65%;
 }
 .timeline h1,
 .timeline h2,
